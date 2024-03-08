@@ -4,4 +4,7 @@ console.log(personName1.toLowerCase());
 //in upper case
 console.log(personName1.toUpperCase());
 //in tittle case
-console.log()
+let titleCaseString :string = personName1;
+.toLowerCase()
+.replace(/\b\w/g, char => char.toUpperCase());
+console.log(titleCaseString);
