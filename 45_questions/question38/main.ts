@@ -1,4 +1,4 @@
-function describeCity(city:string,country:string="Japan"):void{
+function describeCity(city:string,country:string="Japan"){
     console.log(`${city} is in ${country}.`)
 };
 describeCity("Karachi","Pakistan");
