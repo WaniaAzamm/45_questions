@@ -1,4 +1,4 @@
-function orderSandwich(...items: string[]):void{
+function orderSandwich(...items: string[]){
     console.log("Sandwich Order Summary:")
  if(items.length === 0){
     console.log("Please, select items for your Sandwich.")
