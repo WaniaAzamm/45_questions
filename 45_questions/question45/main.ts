@@ -1,15 +1,9 @@
-interface Car{
-    manufacture:string;
-    modelName:string;
-    color?:string;
-    optionalFeature?:string;
-}
-function createCar(manufacture:string, modelName:string, color?:string, optionalFeature?:string): Car {
-    let car : Car ={
-    manufacture,
-    modelName,
-    color,
-    optionalFeature,
+function createCar(manufacturer:string, modelName:string, color?:string, optionalFeature?:string){
+    let car ={
+    manufacture : manufacturer,
+    modelName :modelName,
+    color :color,
+    optionalFeature :optionalFeature,
 }
 return car
 };
