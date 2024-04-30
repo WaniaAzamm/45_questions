@@ -1,4 +1,4 @@
-function CityCountry(city:string, country:string):string{
+function CityCountry(city:string, country:string){
     return `${city},${country}`;
 }
 console.log(CityCountry("Lahore","Pakistan"));
